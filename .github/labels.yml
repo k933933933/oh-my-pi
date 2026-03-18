@@ -1,4 +1,11 @@
 backfill:
   enabled: true
   lookback: 168h
-ololo: foo
+labels:  
+  S:
+    name: size/Small
+    lines: 10
+    symbols: 800
+    color: 55A84B
+    comment: |
+      This PR is still in the small range.
